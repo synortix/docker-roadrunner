@@ -31,6 +31,7 @@ DEBU[0000] [http]: started
 
 ###Use with docker-compose
 
+Sample docker-compose.yml
 ```$xslt
 version: '3'
 
@@ -44,4 +45,10 @@ services:
     ports:
       - 8888:8080
 
+```
+
+Refresh cache
+
+```$xslt
+docker-compose exec app roadrunner/rr -c /var/www/.rr.yml http:reset
 ```
