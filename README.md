@@ -1,7 +1,7 @@
 ## PHP Roadrunner Docker Image
 High-performance PHP application server, load-balancer and process manager written in Golang
 
-###Example
+### Example
 
 1) Create .rr.yml
 
@@ -29,7 +29,7 @@ DEBU[0000] [rpc]: started
 DEBU[0000] [http]: started     
 ```
 
-###Use with docker-compose
+### Use with docker-compose
 
 ```$xslt
 version: '3'
